@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('Aaargh-webfont.eot');
+    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aaargh-webfont.woff') format('woff'),
+         url('Aaargh-webfont.ttf') format('truetype'),
+         url('Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  text-align: center;
+  font-family: aaarghnormal, sans-serif;
+  background-color: #efefef;
+}
+label{
+  font-weight: bold;
+  color: skyblue;
+}
+.head {
+  padding-left: 75px;
+  padding-right: 100px;
+  height: 200px;
+  background: url(../img/night.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+h1 {
+  margin-top: 5px;
+  padding-top: 35px;
+  color: white;
+  text-transform: uppercase;
+}
+h4 {
+  margin-top: 5px;
+  color: white;
+}
+.info, .head, #commentsSection{
+  margin: auto;
+  padding-left: 75px;
+  background-color: #fff;
+
+}
+.info ~ div, form > div {
+  padding-top: 25px;
+}
+
+#firstName{
+  width: 45%;
+  display: inline-block;
+  float: left;
+
+}
+#lastName{
+  display: inline-block;
+}
+#comments {
+  height: 150px;
+  width: 400px;
+  resize: vertical;
+  padding: 0;
+}
+#whoa {
+  height: 1px;
+  border: 0px;
+  background-image:linear-gradient(to right, red, blue);
+  margin-right: 125px;
+}
+hr {
+  margin: 25px 0px 25px 0px;
+  /*padding: 25px 0px 25px 0px;*/
+}
+input{
+  display: block;
+  padding: 5px;
+  width: 175px;
+  border: 1px solid #efefef;
+
+}
+textarea {
+  margin: auto;
+  display: block;
+  padding: 5px;
+  width: 175px;
+  margin-left: 0px;
+  border: 1px solid #efefef;
+}
+button{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: darkblue;
+  color: white;
+  border: 0px;
+  padding:15px;
+  text-transform: uppercase;
+  font-size: 13pt;
+  box-shadow: 0px 5px 0px #444;
+}
+.container{
+  width: 600px;
+  margin: auto;
+  margin-top: 75px;
+  text-align:left;
+  /*border: 2px solid black;*/
+}
